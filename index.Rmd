@@ -1,0 +1,47 @@
+---
+title: "Intro to R"
+output:
+  dcTemplate::dc_lesson_template:
+    fig_width: 6
+    fig_height: 6
+    highlight: pygments
+---
+
+
+```{r knitr_init, echo = FALSE, cache = FALSE}
+library(knitr)
+
+## Global options
+options(max.print = "75")
+opts_chunk$set(cache = TRUE,
+               prompt = FALSE,
+               tidy = TRUE,
+               comment = "> #",
+               message = FALSE,
+               warning = FALSE)
+opts_knit$set(width = 75)
+```
+
+# Intro to R 
+
+This 2 hour course includes a basic introduction to the R syntax, data structures, and language constructs.  We will also cover using RStudio, a tool to help manage R projects and write R scripts.  Following the basics, we will cover how to import data in CSV format into R and how to work with R's most used data structure,  a data.frame.  This course is geared to participants who are new to R and have no programming experience.  
+
+## Lessons:
+
+1. [Lesson 00 Before we start](00-before-we-start.html)
+2. [Lesson 01 Introduction to R](01-intro-to-R.html)
+3. [Lesson 02 Starting with data](02-starting-with-data.html)
+
+## Data
+
+Data files for the lesson are available here: 
+
+
+### Requirements
+
+Participants are encouraged to use their own computers to insure the proper setup of tools for an efficient workflow.
+*These lessons assume no prior knowledge of the skills or tools*, but working
+through this lesson requires working copies of the software described below.
+To most effectively use these materials, please make sure to install everything
+*before* working through this lesson.
+
